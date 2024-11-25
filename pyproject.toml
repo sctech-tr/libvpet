@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libvpet"
+version = "0.2.0"
+description = "A virtual pet library for Python"
+readme = "README.md"
+authors = [
+    { name="sctech", email="gamerselimiko@gmail.com" }
+]
+license = { text = "MIT" }
+keywords = ["virtual pet", "game", "library", "python"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+[project.urls]
+"Source" = "https://github.com/sctech-tr/libvpet"
